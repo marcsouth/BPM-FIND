@@ -50,28 +50,6 @@ function App() {
     setBpm(0);
   }
 
-  const buttonTap = {
-    borderRadius: '100%',
-    backgroundColor: 'linear-gradient(145deg, #716b6b, #877f7f)',
-    boxShadow: isPressed
-      ? ' inset 5px 5px 10px #545454, inset -5px -5px 10px #969696'
-      : '5px 5px 40px #545454, -10px -10px 20px #969696',
-    height: '300px',
-    width: '300px',
-    marginTop: '2rem',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    cursor: 'pointer',
-    marginBottom: "2rem",
-  };
-
-  const letterTap = {
-  fontSize: isPressed ? "4rem" : "5rem",
-  fontWeight: "700",
-  color:"#3f3e3e",
-  };
-
   return (
     <>
       <div className="wrapper">
@@ -91,14 +69,14 @@ function App() {
           </div>
         </div>
 
-        <div
+        <button
           onClick={handleTap}
-          style={buttonTap}
+          className='mainbutton'
           onMouseDown={handleMouseDown}
           onMouseUp={handleMouseUp}
         >
-          <p style={letterTap}>TAP</p>
-        </div>
+         TAP
+        </button>
 
         <div className="splitcontainer">
 
@@ -114,7 +92,7 @@ function App() {
         </div>
       </div>
 
-      <div className={`${info ? "modal" : "hiddenmodal"}`} onClick={closeModal}>
+      <div className={`${info ? "modal" : "modalhidden"}`} onClick={closeModal}>
 
           <div className="modalcontainer">
 
