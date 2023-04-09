@@ -104,7 +104,9 @@ function App() {
 
               <li>We suggest setting the BPM range between 60-150 to allow for tapping to a preferred rhythm. The double time and half time features help to narrow down the optimal BPM.</li>
 
-              <li>Clear your taps by using the reset button located on the left side of the screen.</li>
+              <li>Clear your taps easily with the reset button located on the left side of the screen.</li>
+
+              <li>To achieve the most accurate results, it is recommended to wait for the drums to kick in on your selected song, if applicable. Once you feel the rhythm, you can begin tapping to determine the beats per minute (BPM).</li>
 
              </ul>
 
