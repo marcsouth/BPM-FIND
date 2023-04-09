@@ -75,7 +75,7 @@ function App() {
           onMouseDown={handleMouseDown}
           onMouseUp={handleMouseUp}
         >
-         TAP
+         <h2>TAP</h2>
         </button>
 
         <div className="splitcontainer">

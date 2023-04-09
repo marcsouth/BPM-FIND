@@ -47,12 +47,22 @@ body{
   max-width: 600px;
 }
 .displaybpm{
-  color:#282828;
-  font-size: 4rem;
-  text-align: center;
-  line-height: 4.5rem;
+    font-size: 5rem;
+    text-align: center;
+    line-height: 5rem;
+    background-color: #282828;
+    color: transparent;
+    text-shadow: 2px 2px 3px rgb(152 152 152 / 50%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    font-style: bold;
+    font-weight: 900;
 }
-
+.secondbpm{
+  font-size: 1rem;
+  text-align: center;
+}
 .sidebutton{
   border-radius: 100%;
   background: #757575;
@@ -118,12 +128,18 @@ ul li {
   align-items: center;
   cursor: pointer;
   border:none;
-  font-weight: 700;
   color:#3f3e3e;
-  font-size: 5rem;
+  background-color: #565656;
+  color: transparent;
+  text-shadow: 2px 2px 3px rgb(166 166 166 / 50%);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+     font: bold 80px arial, sans-serif;
 }
 
 .mainbutton:active{
   box-shadow: inset 5px 5px 10px #545454, inset -5px -5px 10px #969696;
-  font-size: 4rem;
+  font: bold 70px arial, sans-serif;
 }
+
