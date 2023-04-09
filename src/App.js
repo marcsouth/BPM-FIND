@@ -106,7 +106,6 @@ function App() {
 
               <li>Clear your taps easily with the reset button located on the left side of the screen.</li>
 
-              <li>To achieve the most accurate results, it is recommended to wait for the drums to kick in on your selected song, if applicable. Once you feel the rhythm, you can begin tapping to determine the beats per minute (BPM).</li>
 
              </ul>
 
