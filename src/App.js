@@ -6,9 +6,7 @@ import { BsInfoLg } from 'react-icons/bs';
 function App() {
   const [tapTimes, setTapTimes] = useState([]);
   const [bpm, setBpm] = useState(0);
-  const [isPressed, setIsPressed] = useState(false);
   const [info, setInfo] = useState(false);
-
 
   const openModal = () => {
     setInfo(true);
@@ -16,13 +14,6 @@ function App() {
 
   const closeModal = () => {
     setInfo(false);
-  };
-
-  const handleMouseDown = () => {
-    setIsPressed(true);
-  };
-  const handleMouseUp = () => {
-    setIsPressed(false);
   };
 
   const handleTap = () => {
@@ -72,8 +63,6 @@ function App() {
         <button
           onClick={handleTap}
           className='mainbutton'
-          onMouseDown={handleMouseDown}
-          onMouseUp={handleMouseUp}
         >
          <h2>TAP</h2>
         </button>
