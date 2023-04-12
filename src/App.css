@@ -154,12 +154,22 @@ ul li {
 }
 
 
-.adscontainer{
-  width: 100%;
-  max-width: 600px;
-  display: flex;
-  align-items: center;
-  margin: auto;
+.productionlabel{
+  font-size: 1rem;
+  text-align: center;
+  background-color: #282828;
+  color: transparent;
+  text-shadow: 2px 2px 3px rgb(152 152 152 / 50%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  font-style: bold;
+  font-weight: 600;
+  font-family: 'Orbitron', sans-serif;
   margin-top: 2rem;
-  justify-content: center;
+}
+.productionlabel > a{
+text-decoration: none;
+color: currentcolor;
+cursor: pointer;
 }

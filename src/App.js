@@ -77,8 +77,9 @@ function App() {
              <BsInfoLg color="#3f3e3e" size={30}/>
           </div>
 
-
         </div>
+
+        <p className='productionlabel'>Designed and built by <a href='https://marc-v.dev/'>Marc-V</a></p>
       </div>
 
       <div className={`${info ? "modal" : "modalhidden"}`} onClick={closeModal}>
@@ -94,7 +95,6 @@ function App() {
               <li>We suggest setting the BPM range between 60-150 to allow for tapping to a preferred rhythm. The double time and half time features help to narrow down the optimal BPM.</li>
 
               <li>Clear your taps easily with the reset button located on the left side of the screen.</li>
-
 
              </ul>
 
