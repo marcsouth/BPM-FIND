@@ -1,7 +1,7 @@
 
-BPM user generated counter built in React.js
+BPM user generated counter built in React.js with Neumorphic design.
 
-Project Demo: https://www.bpmfind.com/
+PROJECT DEMO: https://www.bpmfind.com/
 
 
 
